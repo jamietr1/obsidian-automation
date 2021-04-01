@@ -4,7 +4,7 @@ A set of scripts to help with automating tasks around the Obsidian text editor
 ## Daily Notes (obsidian-daily)
 This script generates a daily notes file in the format described in [this post](https://www.jamierubin.net/2021/02/08/automating-my-daily-notes-with-obsidian/). An example looks as follows:
 
-![Annotated-Daily-Note.png]
+![Example](/images/Annotated-Daily-Note.png)
 
 Some configuration notes:
 
