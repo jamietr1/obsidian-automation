@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.username.obsidian-automation-daily-notes</string>
+
+  <key>EnvironmentVariables</key>
+    <dict>
+      <key>PATH</key>
+      <string><![CDATA[/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin]]></string>
+    </dict>
+
+  <key>WorkingDirectory</key>
+    <string>/path/to/script/folder</string>
+
+
+  <key>Program</key>
+    <string>/opt/homebrew/bin/python3</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/python3</string>
+    <string>/path/to/obsidian-make-daily.py</string>
+  </array>
+
+  <key>Nice</key>
+  <integer>1</integer>
+
+  <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>0</integer>
+        <key>Minute</key>
+        <integer>5</integer>
+    </dict>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardErrorPath</key>
+  <string>/path/to/log/file/obsidian-automation-daily-notes.err</string>
+
+  <key>StandardOutPath</key>
+  <string>/path/to/stdout/obsidian-automation-daily-notes.out</string>
+</dict>
+</plist>

@@ -1,0 +1,3 @@
+daily_notes_root: /path/to/daily_notes/folder
+ical_buddy_cmd: /opt/homebrew/bin/icalBuddy -npc -iep "title,datetime" -b -\  -po "datetime,title" -ps "|: |" eventsToday
+weather_zip: 12345
